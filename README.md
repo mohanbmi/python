@@ -68,3 +68,7 @@ def clean_sentence(sent):
     text = text.replace('$', " $ ")
     return text
 ```
+##  Making a Flat list from list of lists
+```
+flat_list = [item for sublist in m for item in sublist]
+```
